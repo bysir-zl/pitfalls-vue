@@ -9,6 +9,6 @@
 
 ## 清单
 
-- [不相关的数据变化会导致另外的Dom重新挂载, 导致$el更改, 会导致绑定的事件丢失等问题](/blob/master/src/components/DomRerender.vue)
-- [el-slider组件在没有用户输入的情况下, 第一次绑定v-model的时候也会触发input事件, 但这其实是初始化, 并没有改变数据](/blob/master/src/components/ElSliderInput.vue)
-- [当传递给v-model的数据不是响应式的, change时间返回的数据会出现"改不动" 拖动条会出现拖不动的情况.](/blob/master/src/components/ElSliderUnResponsiveModel.vue)
+- [不相关的数据变化会导致另外的Dom重新挂载, 导致$el更改, 会导致绑定的事件丢失等问题](/src/components/DomRerender.vue)
+- [el-slider组件在没有用户输入的情况下, 第一次绑定v-model的时候也会触发input事件, 但这其实是初始化, 并没有改变数据](/src/components/ElSliderInput.vue)
+- [当传递给v-model的数据不是响应式的, change时间返回的数据会出现"改不动" 拖动条会出现拖不动的情况.](/src/components/ElSliderUnResponsiveModel.vue)
