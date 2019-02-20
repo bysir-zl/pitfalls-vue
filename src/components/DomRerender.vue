@@ -2,7 +2,7 @@
 ## 问题描述
 不相关的数据变化会导致另外的Dom重新挂载, 导致$el更改, 会导致绑定的事件丢失等问题
 
-在vue仓库里也有对于的issue, 到目前为止还开着呢. [<input> rerenders while changes affects only sibling elements](https://github.com/vuejs/vue/issues/6929)
+在vue仓库里也有对于的issue, 目前为止还开着呢. [<input> rerenders while changes affects only sibling elements](https://github.com/vuejs/vue/issues/6929)
 ## 解决
 使用v-show或者更改dom结构, 使dom不是以下样子
 ```
